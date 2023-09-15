@@ -1,0 +1,15 @@
+meme_dict = {
+            "cringe": "Algo excepcionalmente raro o embarazoso",
+            "lol": "Una respuesta común a algo gracioso","aggro":"ponerse agresivo/enoja", "chivito canadiense":"Una comida con carne, queso, tomate, fiambre, mayonesa, salsa de tomate, papas fritas y ensalada rusa", "omnibus":" Un medio de trasporte"
+            }
+            
+            
+            
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+  
+else:
+   print("Esta palabra no esta en el diccionario")
